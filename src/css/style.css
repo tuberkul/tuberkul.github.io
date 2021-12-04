@@ -1,0 +1,527 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background: #344051
+}
+
+.logo{
+	color: #fff;
+	font-size: 28px;
+	line-height: 60px;
+	padding-left: 200px;
+	float: left;
+}
+
+.menu{
+	float: left;
+	padding-left: 360px;
+}
+
+.menu ul li{
+	float: left;
+	line-height: 60px;
+	color: #fff;
+	margin-right: 30px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+	background: url(../img/fon_png.png)
+}
+
+.title_container{
+	padding-top: 300px;
+	width: 600px;
+	text-align: center;
+}
+
+.title_container h1{
+	font-size: 40px;
+	color: #344051;
+	font-weight: bold;
+}
+
+.title_container h4{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 16px;
+	color: #344051;
+}
+
+.title_container input{
+	height: 40px;
+	border: 2px solid #344051;
+	border-radius: 8px;
+	background: none;
+	text-align: center;
+	color: #344051;
+	font-size: 14px;
+	padding-left: 13px;
+	padding-right: 13px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.about_me{
+	margin-top: 200px;
+
+}
+
+.about_me h3{
+		font-size: 33px;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #263244;
+		text-align: center;
+}
+
+.about_me span p{
+	width: 750px;
+	text-align: left;
+	margin-left: 380px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 12px;
+	color: #3f495a;
+	letter-spacing: 1px;
+}
+
+.gorizontal_line{
+	margin-top: 30px;
+	margin-left: 700px;
+	width:70px;
+	float: bottom;
+	height:4px;
+	background:#d17700;
+}
+
+.about_me .img_in_a_circle{
+	margin-top: 60px;
+	height: 190px;
+	width: 190px;
+	text-align: center;
+	margin-left: 640px;
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
+
+.about_me #img{
+	border-radius: 50%;
+}
+
+.about_me input{
+	padding-top: 3px;
+	padding-left: 10px;
+	border: 2px solid #6f707e;
+	height: 30px;
+	width: 160px;
+	background: none;
+	color: #6f707e;
+	border-radius: 8px;
+	background: url(../img/icon_down.jpg) no-repeat left;
+	font-size: 14px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+#block_knopki{
+	text-align: center;
+}
+
+.what_i_can_do{
+	height: 625px;
+	background: url(../img/fon_what_i_can.jpg) no-repeat;
+}
+.what_i_can_do h3{
+	text-align: center;
+	font-size: 33px;
+	padding-top: 100px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #263244;
+}
+
+.information_skills{
+	padding-top: 110px;
+	padding-left: 110px;
+	text-align: center;
+}
+
+.underblock_information{
+	padding-top: 75px;
+	float: left;
+	height: 245px;
+	width: 190px;
+	text-align: center;
+	margin-left: 100px;
+}
+
+.underblock_information h5{
+	color: #cf7600;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.underblock_information p{
+	font-size: 16px;
+	text-align: center;
+	line-height: 19px;
+}
+
+#nout{
+	background: url(../img/nout.png) no-repeat top center;
+	background-size: 55px 37px;
+}
+
+#znak{
+	background: url(../img/znak.png) no-repeat top center;
+	background-size: 51px 40px;
+}
+
+#rocket{
+	background: url(../img/rocket.png) no-repeat top center;
+	background-size: 47px 47px;
+}
+
+#gramafon{
+	background: url(../img/gramafon.png) no-repeat top center;
+	background-size: 51px 44px;
+}
+.cases{
+	margin-top: 110px;
+	margin-bottom: 200px;
+}
+
+.cases h3{
+	text-align: center;
+	font-size: 33px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #263244;
+}
+
+.cases>p{
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 40px;
+}
+
+#fotka_vmesto{
+	height: 589px;
+	widows: 100%;
+	background: url(../img/fotka_vmesto_js.jpg) no-repeat center;
+	margin-bottom: 22px;
+}
+
+.animation_button{
+	padding-left: 148px;
+}
+
+.info{
+	width: 300px;
+	margin-right: 0;
+}
+.info h4{
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: #384354;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.info p{
+color:#3f495a;
+font-size: 16px;
+}
+
+#name_project{
+	width: calc(100% - 300px);
+	float: right;
+	text-align: left;
+	margin-top: -190px;
+	padding-right: 150px;
+}
+
+#name_project h5{
+font-size: 25px;
+color: #3f495a;
+}
+
+#name_project p{
+	color: #3f495a;
+	line-height: 19px;
+}
+
+.button_visit{
+	padding-top: 14px;
+	margin-top: 25px;
+	text-align: center;
+	border-radius: 5px;
+	width: 200px;
+	height: 40px;
+	background-color: #63b5ae;
+	color: #fff;
+}
+
+.button_visit p{
+	text-transform: uppercase;
+	font-weight: 10;
+}
+
+.calculator{
+	text-align: center;
+}
+.calculator h3{
+	font-size: 45px;
+	text-align: center;
+	letter-spacing: -2px;
+	color: #1c2534;
+}
+
+#hz{
+	margin-top: 60px;
+	width: 900px;
+	padding-left: 300px;
+}
+#hz>p{
+	text-align: left;
+	text-transform: uppercase;
+	color: #1c2534;
+	margin-top: 45px;
+	font-weight: 500;
+}
+
+.select{
+	background-color: #eeeeee;
+	margin-top: 25px;
+	width: 893px;
+	height: 45px;
+	text-align: keft;
+	text-indent: 12px;
+	color: #777;
+}
+
+#cherta{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	height: 3px;
+	width: 900px;
+	background-color: #d1d1d1;
+}
+
+#raschet{
+	height: 300px;
+	width: 900px;
+}
+
+.text{
+	text-align: left;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.text>span{
+	display: block;
+text-align: right;
+margin-top: -11px;
+}
+
+.statistic{
+	height: 498px;
+	background: url(../img/fon_statictic.jpg) no-repeat;
+	background-size: 100% 498px;
+	text-align: center;
+}
+
+.statistic h3{
+	padding-top: 100px;
+	text-align: center;
+	font-size: 33px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #263244;
+}
+
+.stat_part{
+	text-align: center;
+	padding-top: 90px;
+	float: left;
+	width: 180px;
+	margin-left: 155px;
+}
+
+#smile{
+	background: url(../img/icon_smile.png) no-repeat center;
+}
+
+#skobki{
+	background: url(../img/icon_skobki.png) no-repeat center;
+}
+
+#galochka{
+	background: url(../img/icon_galochka.png) no-repeat center;
+	padding-right: 10px;
+}
+
+#kubok{
+	background: url(../img/icon_kubok.png) no-repeat center;
+}
+
+.stat_part h5{
+	padding-top: 75px;
+	font-size: 30px;
+	font-weight: 900;
+	color: #323d4f;
+}
+
+.stat_part p{
+	color: #323d4f;
+	padding-top: 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.reviews{
+	margin-top: 105px;
+	height: 500px;
+	background: url(../img/foto_chela.png) no-repeat 50% 125px, url(../img/tochki.png) no-repeat 50% 400px;
+}
+
+.reviews h3{
+	text-align: center;
+	font-size: 33px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #263244;
+
+	}
+
+.reviews div{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 160px;
+}
+#director{
+	padding-top: 235px;
+	text-align: center;
+	width: 628px;
+	margin-left: 430px;
+	padding-bottom: 40px;
+}
+
+.reviews p{
+	color: #243042;
+}
+
+.contacts{
+	height: 724px;
+	background: url(../img/fon_contakt.jpg) 0px 0px no-repeat;
+	background-size: 1480px 724px;
+}
+
+.contacts h3{
+	text-align: center;
+	font-size: 33px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 100px;
+	}
+
+.contacts p{
+	color: #fff;
+	text-align: center;
+	}
+
+.contacts>p{
+	margin-top: 33px;
+}
+
+#container{
+	height: 160px;
+}
+
+#first_cont{
+	margin-left: 445px;
+	background: url(../img/icon_geo.png) no-repeat 50% 35%;
+}
+
+#second_cont{
+	background: url(../img/icon_letter.png) no-repeat 50% 35%;
+}
+
+#third_cont{
+	background: url(../img/icon_pipe.png) no-repeat 50% 35%;
+}
+
+.contacts1{
+	float: left;
+	height: 140px;
+	width: 135px;
+	padding-top: 85px;
+	text-align: center;
+	margin-right: 100px;
+	}
+
+.message{
+	width: 100%;
+	text-align: center;
+}
+
+.message h5{
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: -20px;
+}
+
+#form_obr{
+	margin-top: 20px;
+	width: 50%;
+	text-align: center;
+	margin-left: 25%;
+}
+
+#name{
+
+	margin-right: 30px;
+}
+
+.txt{
+	height: 34px;
+	width: 47.60%;
+	text-align: left;
+	padding-left: 6px;
+	background-color: rgba(211,215,211, 0.8);
+}
+
+.txtarea{
+	margin-top: 18px;
+	width: 100%;
+	height: 95px;
+	padding-top: 6px;
+	padding-left: 6px;
+	background-color: rgba(211,215,211, 0.8);
+}
+
+#send{
+	margin-top: 30px;
+	width: 120px;
+	height: 45px;
+	border: 1px solid #fff;
+	background:none;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+}
