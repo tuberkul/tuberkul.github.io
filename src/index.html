@@ -7,77 +7,169 @@
 	<meta name="author" content="Nikita Joshkin">
 	<meta name="robots" content="all">
 	<meta property="og:title" content="Первый проект">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+
 	<title>Разработка Никита Мошкин</title>
 </head>
 <body>
 
 	<header>
 		<nav>
-			<div class="logo">
-				Никита Мошкин
-			</div>
-			<div class="menu">
-				<ul>
-					<li><a href="#">Обо мне</a></li>
-					<li><a href="#">Услуги</a></li>
-					<li><a href="#">Кейсы</a></li>
-					<li><a href="#">Прайс</a></li>
-					<li><a href="#">Отзывы</a></li>
-					<li><a href="#">Контакты</a></li>
-				</ul>
+			<div class="container">
+				<div class="row">
+					<div class="col-xxl-2 col-lg-3 col-7">
+						<div class="logo">
+							Никита Мошкин
+						</div>
+					</div>
+					<div class="col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block">
+						<div class="menu">
+							<ul>
+								<li><a href="#">Обо мне</a></li>
+								<li><a href="#">Услуги</a></li>
+								<li><a href="#">Кейсы</a></li>
+								<li><a href="#">Прайс</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end">
+						<div class="dropdown" >
+						  <a class="btn btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+								Навигация
+						  </a>
+
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						    <li><a class="dropdown-item" href="#">Обо мне</a></li>
+						    <li><a class="dropdown-item" href="#">Услуги</a></li>
+						    <li><a class="dropdown-item" href="#">Кейсы</a></li>
+						    <li><a class="dropdown-item" href="#">Прайс</a></li>
+						    <li><a class="dropdown-item" href="#">Отзывы</a></li>
+						    <li><a class="dropdown-item" href="#">Контакты</a></li>
+						  </ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</nav>
 	</header>
 
 	<div class="main">
-		<div class="title_container">
-			<h1>Привет <br> Я Никита Мошкин</h1>
-			<h4>Фулл стек веб - разработчик</h4>
-			<div>
-				<p><a href="#">Обо мне</a></p>
-				<p><a href="#">Мои работы</a></p>
+		<div class="container h-100" >
+			<div class="row align-items-center h-100">
+				<div class="col-lg-6">
+					<div class="title_container">
+						<h1>Привет <br> Я Никита Мошкин</h1>
+						<h4>Фулл стек веб - разработчик</h4>
+						<div>
+							<p class="px-4"><a href="#">Обо мне</a></p>
+							<p class="px-4"><a href="#">Мои работы</a></p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-
 	<div class="about_me">
-		<h3>Обо мне <hr class="gorizontal_line"> </h3>
-		<div class="img_in_a_circle">
-			<img src="img/about_me.jpg" alt="Тут должно быть фото." id="img">
-		</div>
-		<span><p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Culpa, facilis quod tempora doloremque repellendus officia fugiat reprehenderit, debitis, dolores nihil iure architecto sit accusamus id nulla fugit ipsa totam voluptatum!</p></span>
-		<span><p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Culpa, facilis quod tempora doloremque repellendus officia fugiat reprehenderit, debitis, dolores nihil iure architecto sit accusamus id nulla fugit ipsa totam voluptatum!</p></span>
-		<div id="block_knopki">
-			<a href="#">Скачать резюме</a>
+		<div class="container h-100">
+			<div class="row align-items-center justify-content-center h-100">
+				<div class="col-8">
+					<h3>Обо мне</h3>
+					<div class="gorizontal_line"></div>
+					<div class="img_in_a_circle"> 
+						<img src="img/about_me.jpg" alt="Тут должно быть фото." id="img">
+					</div>
+					<span><p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Culpa, facilis quod tempora doloremque repellendus officia fugiat reprehenderit, debitis, dolores nihil iure architecto sit accusamus id nulla fugit ipsa totam voluptatum!</p></span>
+					<span><p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Culpa, facilis quod tempora doloremque repellendus officia fugiat reprehenderit, debitis, dolores nihil iure architecto sit accusamus id nulla fugit ipsa totam voluptatum!</p></span>
+					<div id="block_knopki" class="col-2 d-xxl-block d-none">
+						<a href="#">Скачать резюме</a>
+					</div>
+					<button type="button" class="btn btn-outline-secondary col-md-2 col-3 d-xxl-none d-block justify-content-center block_knopki_adapt">Скачать резюме</button>
+				</div>
+			</div>
 		</div>
 	</div>
 
 	<div class="what_i_can_do">
-		<h3>Что я умею <hr class="gorizontal_line"> </h3>
-		<div class="information_skills">
-			<div class="underblock_information" id="nout">
-				<h5>Веб-дизайн</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Iusto et, voluptate. Adipisci qui beatae itaque.</p>
-			</div>
-			<div class="underblock_information" id="znak">
-				<h5>Разработка</h5>
-				<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Sequi ipsam nemo rerum ipsa. Exercitationem, corporis.</p>
-			</div>
-			<div class="underblock_information" id="rocket">
-				<h5>СЕО-оптимизация</h5>
-				<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quo similique harum earum voluptatum doloribus.</p>
-			</div>
-			<div class="underblock_information" id="gramafon">
-				<h5>Маркетинг</h5>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit velit fuga. Hic necessitatibus, quo?</p>
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-md-block d-none">
+						<h3>Что я умею</h3>
+						<div class="gorizontal_line"></div>
+						<div class="information_skills">
+							<div class="underblock_information col-3 " id="nout">
+								<h5>Веб-дизайн</h5>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Iusto et, voluptate. Adipisci qui beatae itaque.</p>
+							</div>
+							<div class="underblock_information col-3" id="znak">
+								<h5>Разработка</h5>
+								<p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Sequi ipsam nemo rerum ipsa. Exercitationem, corporis.</p>
+							</div>
+							<div class="underblock_information col-3" id="rocket">
+								<h5>СЕО-оптимизация</h5>
+								<p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Quo similique harum earum voluptatum doloribus.</p>
+							</div>
+							<div class="underblock_information col-3" id="gramafon">
+								<h5>Маркетинг</h5>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam reprehenderit velit fuga. Hic necessitatibus, quo?</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 d-md-none d-block">
+						<h3>Что я умею</h3>
+						<div class="gorizontal_line"></div>
+						<div class="information_skills">
+
+							<a class="btn btn-outline-secondary col-3 float-start justify-content-center pt-3 what_can_i_do_mobile" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+								<h5>Макет</h5>
+							</a>
+							<div class="collapse float-end" id="collapseExample1">
+								<div class="card card-body WCID_text_mobile">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Iusto et, voluptate. Adipisci qui beatae itaque.</p>
+								</div>
+							</div>
+
+							<a class="btn btn-outline-secondary col-3 float-start justify-content-center pt-3 what_can_i_do_mobile" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+								<h5>DevOp</h5>
+							</a>
+							<div class="collapse float-end" id="collapseExample2">
+								<div class="card card-body WCID_text_mobile">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Iusto et, voluptate. Adipisci qui beatae itaque.</p>
+								</div>
+							</div>
+
+							<a class="btn btn-outline-secondary col-3 float-start justify-content-center pt-3 what_can_i_do_mobile" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+								<h5>СЕО</h5>
+							</a>
+							<div class="collapse float-end" id="collapseExample3">
+								<div class="card card-body WCID_text_mobile">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Iusto et, voluptate. Adipisci qui beatae itaque.</p>
+								</div>
+							</div>
+
+							<a class="btn btn-outline-secondary col-3 float-start justify-content-center pt-3 what_can_i_do_mobile" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+								<h5>Маркетинг</h5>
+							</a>
+							<div class="collapse float-end" id="collapseExample4">
+								<div class="card card-body WCID_text_mobile">
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Iusto et, voluptate. Adipisci qui beatae itaque.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="cases">
-		<h3>Кейсы<hr class="gorizontal_line"></h3>
+<!--	<div class="cases">
+		<h3>Кейсы</h3>
+		<div class="gorizontal_line"></div>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sed. Veritatis, impedit, a blanditiis in beatae rem architecto!</p>
 		<div id="fotka_vmesto">
 
@@ -100,8 +192,8 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="calculator">
+-->
+<!--	<div class="calculator">
 		<h3>Рассчёт стоимости<hr class="gorizontal_line"></h3>
 		<div id="hz">
 			<p>тип сайта</p>
@@ -129,9 +221,23 @@
 			</div>
 		</div>
 	</div>
-
+-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 	<div class="statistic">
-		<h3>Немного статистики<hr class="gorizontal_line"></h3>
+		<h3>Немного статистики</h3>
+		<div class="gorizontal_line"></div>
 		<div class="stat_part" id="smile">
 			<h5>120</h5>
 			<p>счастливых клиентов</p>
@@ -151,7 +257,8 @@
 	</div>
 
 	<div class="reviews">
-		<h3>отзывы<hr class="gorizontal_line"></h3>
+		<h3>отзывы</h3>
+		<div class="gorizontal_line"></div>
 		<div>
 			<p id="director">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Adipisci laborum architecto aperiam totam omnis rerum. Ipsum nihil officiis ex corrupti quos consequatur est tempora voluptas eum.</p>
 			<p><strong>Михаил</strong>, Ген директор ПАО"Газпром"</p>
@@ -159,7 +266,8 @@
 	</div>
 
 	<div class="contacts">
-		<h3>мои контакты<hr class="gorizontal_line"></h3>
+		<h3>мои контакты</h3>
+		<div class="gorizontal_line"></div>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, perspiciatis distinctio quibusdam ullam facere, aspernatur.</p>
 		<div id="container">
 			<div class="contacts1" id="first_cont">
@@ -184,7 +292,7 @@
 		</div>
 	</div>
 </div>
-<div id="preloader_malc">
+<!--<div id="preloader_malc">
 
 	<div>
 
@@ -239,5 +347,7 @@
 	};
 
 </script>
+-->
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
