@@ -266,32 +266,41 @@
 	</div>
 
 	<div class="contacts">
-		<h3>мои контакты</h3>
-		<div class="gorizontal_line"></div>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, perspiciatis distinctio quibusdam ullam facere, aspernatur.</p>
-		<div id="container">
-			<div class="contacts1" id="first_cont">
-				<p>Санкт-Петербург</p>
-				<p>Невский проспект 11</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h3>мои контакты</h3>
+					<div class="gorizontal_line"></div>
+					<p class="pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, perspiciatis distinctio quibusdam ullam facere, aspernatur.</p>
+					<div id="container" class="col-12">
+						<div class="contacts1 col-4" id="first_cont">
+							<p>Санкт-Петербург Невский проспект 11</p>
+						</div>
+						<div class="contacts1 col-4" id="second_cont">
+							<p>почта@mail.ru</p>
+						</div>
+						<div class="contacts1 col-4"id="third_cont">
+							<p>номер телефона</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-sm-6 my-1">
+                		<input type="text" class="form-control " id="name" placeholder="Enter name" required>
+            		</div>
+           			 <div class="form-group col-sm-6 my-1">
+                		<input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            		</div>
+        			</div>
+        			<div class="form-group my-4">
+           			<textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+        			</div>
+        			<button type="submit" id="form-submit" class="btn btn-secondary offset-4 offset-sm-5 col-4 col-sm-2">Отправить</button>
+				</div>
 			</div>
-			<div class="contacts1" id="second_cont">
-				<p>почта@mail.ru</p>
-			</div>
-			<div class="contacts1"id="third_cont">
-				<p>номер телефона</p>
-			</div>
-		</div>
-		<div class="message">
-			<h5>оставьте мне сообщение</h5>
-		<form action="#" method="post" name="contact" id="form_obr">
-			<input id="name" type="name" class="txt" name="name" placeholder="Имя">
-			<input id="email" type="email" class="txt" name="email" placeholder="E-mail">
-			<textarea name="msg" id="msg" class="txtarea" placeholder="Сообщение"></textarea>
-			<button id="send">Отправить</button>
-		</form>
 		</div>
 	</div>
 </div>
+<br>
 <!--<div id="preloader_malc">
 
 	<div>

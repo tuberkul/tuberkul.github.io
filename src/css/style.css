@@ -548,7 +548,6 @@ color: #3f495a;
 }
 
 .contacts{
-	height: 724px;
 	background: url(../img/fon_contakt.jpg) 0px 0px no-repeat;
 }
 
@@ -571,39 +570,27 @@ color: #3f495a;
 }
 
 #container{
-	height: 160px;
+	height: 90px;
 }
 
 #first_cont{
-	background: url(../img/icon_geo.png) no-repeat 50% 35%;
+	background: url(../img/icon_geo.png) no-repeat 50% 15%;
 }
 
 #second_cont{
-	background: url(../img/icon_letter.png) no-repeat 50% 35%;
+	background: url(../img/icon_letter.png) no-repeat 50% 15%;
 }
 
 #third_cont{
-	background: url(../img/icon_pipe.png) no-repeat 50% 35%;
+	background: url(../img/icon_pipe.png) no-repeat 50% 15%;
 }
 
 .contacts1{
 	float: left;
 	height: 140px;
-	padding-top: 85px;
+	padding-top: 50px;
 	text-align: center;
 	}
-
-.message{
-	text-align: center;
-}
-
-.message h5{
-	font-size: 20px;
-	font-weight: 400;
-	text-transform: uppercase;
-	color: #fff;
-	margin-top: -20px;
-}
 
 #form_obr{
 	margin-top: 20px;
@@ -640,4 +627,12 @@ color: #3f495a;
 	border-radius: 5px;
 	color: #fff;
 	font-weight: 600;
+}
+
+.form-group{
+	background: none;
+}
+
+.form-control{
+		background-color: rgba(211,215,211, 0.8);
 }
