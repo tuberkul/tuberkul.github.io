@@ -193,35 +193,55 @@
 		</div>
 	</div>
 -->
-<!--	<div class="calculator">
-		<h3>Рассчёт стоимости<hr class="gorizontal_line"></h3>
-		<div id="hz">
-			<p>тип сайта</p>
-			<select name="#" class="select" >
-				<option selected>Выберите пункт...</option>
-				<option>цтщтуз</option>
-				<option>ацщаицщ</option>
-			</select>
-			<p>дизайн</p>
-			<select name="#" class="select">
-				<option selected>Выберите пункт...</option>
-				<option></option>
-				<option></option>
-			</select>
-			<p>адаптивность</p>
-			<select name="#" class="select">
-				<option selected>Выберите пункт...</option>
-				<option></option>
-				<option></option>
-			</select>
-			<hr id="cherta">
-			<div id="raschet">
-				<p class="text">Сроки<span>0</span></p>
-				<p class="text">Стоимость<span>0</span></p>
+	<div class="calculator">
+		<div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h3>Рассчёт стоимости</h3>
+						<div class="gorizontal_line"></div>
+						<div id="hz" class="col-12">
+							<span><p>тип сайта</p></span>
+							<div class="online_calculator">
+								<select name="type" id="type" class="select col-9" value="type">
+									<option selected value="0">Выберите пункт...</option>
+									<option value="1">Одностраничный сайт</option>
+									<option value="2">Корпоративный сайт</option>
+									<option value="3">Интернет-магазин</option>								
+								</select>
+								<span><p>дизайн</p></span>
+								<select name="design" id="design" class="select col-9">
+									<option selected value="0">Выберите пункт...</option>
+									<option value="1">Свой готовый дизайн</option>
+									<option value="2">Дизайн без правок</option>
+									<option value="3">Дизайн с правками(5 правок)</option>
+								</select>
+								<span><p>адаптивность</p></span>
+								<select name="adaptability" id="adaptability" class="select col-9">
+									<option selected value="0">Выберите пункт...</option>
+									<option value="1">Неадаптивен</option>
+									<option value="2">Полностью адаптивен</option>
+								</select>
+								<hr id="cherta">
+								<div id="raschet" class="row">
+									<div class="col-6">
+										<div class="col-3"><p class="text">Сроки</p></div>
+										<div class="col-3"><p class="text">Стоимость</p></div>
+									</div>
+									<div class="col-6">
+										<div class="offset-6"><span class="deadline text">...</span></div>
+										<div class="offset-6"><span class="price text">0</span></div>
+									</div>
+									<button type="button" class="btn btn-outline-secondary col-1 offset-0 button">Сбросить</button>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
--->
 <br>
 <br>
 <br>
@@ -358,5 +378,6 @@
 </script>
 -->
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
